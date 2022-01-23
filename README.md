@@ -7,3 +7,5 @@ It is recommended to `git clone --recurse-submodules` this repository. If you cl
 Decrypt repository using `transcrypt/transcrypt -c aes-256-cbc -p 'password'`. A small helper script `unlock.sh` is provided to save typing.
 
 All files added in the `vault` directory will be automatically and transparently encrypted when being handled by git.
+
+**Note:** This setup is a bit of a hack. Do not take it as gospel. Feel free to explore and implement alternatives (maybe bitwarden?) if they are more suitable.
