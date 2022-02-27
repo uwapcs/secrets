@@ -1,5 +1,9 @@
 # secrets
 
+**DO NOT** commit a secret file if you have not at some point entered the encryption password.
+You may not have transcrypt set up properly, and may commit the file raw.
+If you can read an encrypted file, you should be fine.
+
 Secret values such as passwords and keys stored encrypted using transcrypt, which is included as a submodule.
 
 It is recommended to `git clone --recurse-submodules` this repository. If you cloned without submodules you can clone them now with `git submodule update --init --recursive`.
