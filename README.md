@@ -8,4 +8,4 @@ Decrypt repository using `transcrypt/transcrypt -c aes-256-cbc -p 'password'`. A
 
 All files added in the `vault` directory will be automatically and transparently encrypted when being handled by git.
 
-**Note:** This setup is a bit of a hack. Do not take it as gospel. Feel free to explore and implement alternatives (maybe bitwarden?) if they are more suitable.
+**Note:** This setup is a bit of a hack. Do not take it as gospel. Feel free to explore and implement alternatives (maybe self-host vaultwarden?) if they are more suitable.
