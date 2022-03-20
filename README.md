@@ -1,4 +1,8 @@
-# secrets
+# secrets [DEPRECATED]
+
+**Deprecation notice:**
+Everything in here we need should now be migrated to the club Bitwarden account.
+Do not add anything new here, as it will hopefully be archived or deleted as soon as we are confident we won't lose anything.
 
 **DO NOT** commit a secret file if you have not at some point entered the encryption password.
 You may not have transcrypt set up properly, and may commit the file raw.
